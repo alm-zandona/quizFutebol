@@ -49,7 +49,7 @@ main {
 
 }
 
-.question-card p { 
+.question-card .text-body { 
     padding: 10px;
     font-size: 20px;
 }
@@ -60,7 +60,7 @@ main {
     padding: 15px;
 }
 
-.question-card .button {
+.question-card .button-response {
     margin-left: 15px;
     padding: 6px;
     border-radius: 8px;
@@ -68,12 +68,46 @@ main {
     font-weight: bold;
     box-shadow: 1px 1px 1px 2px white;
     transition: ease-in-out 250ms;
+    cursor: pointer;
 }
 
-.question-card .button:hover {
+.question-card .button-response:hover {
     background-color: gray;
     box-shadow: 1px 1px 1px 2px gray
     
 }
+
+.field-response .text-response {
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.false {
+    background: rgb(255,23,42);
+    background: linear-gradient(90deg, rgba(255,23,42,0.8855917366946778) 74%, rgba(255,209,3,0.865983893557423) 100%);
+    border-radius: 8px;
+    width: 390px;
+    margin-left: 3px;
+}
+
+.true {
+    background: rgb(0,85,34);
+    background: linear-gradient(90deg, rgba(0,85,34,1) 58%, rgba(247,210,9,1) 77%, rgba(8,28,89,1) 95%);
+    border-radius: 8px;
+    width: 390px;
+    margin-left: 3px;
+}
+
+.icon-response {
+    margin-left: 10px;
+    height: 20px;
+    width: 20px;
+
+}
+
 
 
