@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+     box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+body {
+    background-color: rgb(8, 5, 5);
+}
+
+header {
+    height: 12vh;
+    width: 100vw;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 2px 3px 2px rgb(0, 128, 0);
+}
+
+header #title {
+    font-size: 50px;
+    text-shadow: rgba(0 0 0 / 55%)2px 3px 4px;
+}
+
+main {
+    color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 15%;
+}
+
+.question-card {
+    width: 400px;
+    height: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+    border: solid 1px white ;
+    box-shadow: 2px 2px 3px 2px #3e5910;
+    background: rgb(95,168,17);
+    background: linear-gradient(90deg, rgba(95,168,17,1) 0%, rgba(53,97,9,1) 40%, rgba(43,88,8,1) 100%);
+
+}
+
+.question-card p { 
+    padding: 10px;
+    font-size: 20px;
+}
+
+.question-card .input-card {
+    margin-top: 10px;
+    margin-left: 5px;
+    padding: 15px;
+}
+
+.question-card .button {
+    margin-left: 15px;
+    padding: 6px;
+    border-radius: 8px;
+    font-size: medium;
+    font-weight: bold;
+    box-shadow: 1px 1px 1px 2px white;
+    transition: ease-in-out 250ms;
+}
+
+.question-card .button:hover {
+    background-color: gray;
+    box-shadow: 1px 1px 1px 2px gray
+    
+}
+
+
